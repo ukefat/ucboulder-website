@@ -1,20 +1,24 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar.jsx'; 
 import Home from './pages/Home';
-import About from './pages/About';
+import Events from './pages/Events';
+import Team from './pages/Team';
+import Join from './pages/Join';
 
-function App() {
-
+const App = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/join" element={<Join />} />
       </Routes>
+      <p>Follow us on instagram here</p>
     </Router>
-  )
-}
+  );
+};
 
-export default App
+export default App;

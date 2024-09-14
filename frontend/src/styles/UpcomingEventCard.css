@@ -1,0 +1,23 @@
+.event-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.event-where, .event-when, .event-description {
+  margin: 5px 0;
+  color: #555;
+}
+
+.event-where strong, .event-when strong {
+  color: #333;
+}

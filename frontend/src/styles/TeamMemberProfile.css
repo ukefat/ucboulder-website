@@ -1,0 +1,29 @@
+.team-member-profile {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #fff;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-image img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.team-member-position {
+  font-size: 16px;
+  color: #777;
+  margin-top: 0;
+}

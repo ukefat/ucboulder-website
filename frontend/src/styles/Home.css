@@ -11,6 +11,7 @@
 }
 
 .main-about {
+  text-align:left;
   border: 2px solid #000;
   padding: 20px; /* Space inside the border */
   margin: 20px; /* Space outside the border */
@@ -20,6 +21,8 @@
 
 .black-button {
   background-color: black; /* Black background */
+  width: 200px;
+  height: 100px;
   color: white; /* White text */
   border: none; /* Remove default border */
   border-radius: 4px; /* Optional: rounded corners */

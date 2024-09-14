@@ -20,7 +20,7 @@ const Home = () => {
             </p>
           </div>
           <button className="black-button">
-            Join!
+            Join Now!
           </button>
           <h2> Sponsors!!</h2>
           <div className="sponsors">

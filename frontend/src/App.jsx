@@ -16,7 +16,6 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/join" element={<Join />} />
       </Routes>
-      <p>Follow us on instagram here</p>
     </Router>
   );
 };

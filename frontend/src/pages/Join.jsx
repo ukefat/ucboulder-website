@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Join.css'
 
 const Join = () => {
   return (
-    <div>
+    <div className='page-container'>
       <h1>Join Us!</h1>
       <h2>Signup to Become a Member</h2>
       <p>

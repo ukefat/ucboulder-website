@@ -1,14 +1,20 @@
 /* General Navbar styling */
 .navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
   background-color: #000;
+  width: 100%;
 }
 
 .logo img {
-  width: 100px;
+  width: 80px;
+  padding: 5px;
 }
 
 .nav-links {
@@ -29,11 +35,6 @@
 /* Hamburger menu icon styling */
 .mobile-menu-icon {
   display: none;
-  font-size: 2rem;
-  color: white;
-  background: none;
-  border: none;
-  cursor: pointer;
 }
 
 /* Mobile view */
@@ -46,20 +47,47 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: #000;
-    width: 50%;
-    height: 50vh;
-    align-items: center;
+    background-color: #444;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    align-items: left;
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   .nav-links-mobile li {
     margin: 2rem 0;
   }
 
+  .nav-links-mobile a {
+    color: inherit; 
+    text-decoration: none; 
+    padding: 20px;
+  }
+
+  .nav-links-mobile a:visited {
+    color: inherit; 
+  }
+
+  .nav-links-mobile a:hover,
+  .nav-links-mobile a:focus {
+    color: #fff; 
+    text-decoration: none; 
+  }
+
+  .nav-links-mobile a:active {
+    color: inherit; 
+  }
+
   .mobile-menu-icon {
     display: block;
+    font-size: 2rem;
+    color: white;
+    padding: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
 }

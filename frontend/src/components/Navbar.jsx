@@ -4,10 +4,14 @@ import '../styles/Navbar.css';
 import UCBoulderLogo from '../assets/ucboulder-logo-circle-centered.png'
 
 const Navbar = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
-    setIsMobile(!isMobile);
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleMenuItemCLick = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -17,13 +21,13 @@ const Navbar = () => {
           <img src={UCBoulderLogo} alt="Logo" />
         </Link>
       </div>
-      <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
-        <li><Link to="/events">Events</Link></li>
-        <li><Link to="/team">Team</Link></li>
-        <li><Link to="/join">Join</Link></li>
+      <ul className={isMenuOpen ? "nav-links-mobile" : "nav-links"}>
+        <li><Link to="/events" onClick={handleMenuItemCLick}>Events</Link></li>
+        <li><Link to="/team" onClick={handleMenuItemCLick}>Team</Link></li>
+        <li><Link to="/join" onClick={handleMenuItemCLick}>Join</Link></li>
       </ul>
       <button className="mobile-menu-icon" onClick={handleToggleMenu}>
-        {isMobile ? <>&#10005;</> : <>&#9776;</>}
+        {isMenuOpen ? <>&#10005;</> : <>&#9776;</>}
       </button>
     </nav>
   );

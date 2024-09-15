@@ -1,4 +1,4 @@
-.home-container {
+.page-container {
   display: flex;
   flex-direction: column; /* Align children vertically */
   align-items: center; /* Center children horizontally */

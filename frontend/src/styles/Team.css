@@ -1,0 +1,12 @@
+.page-container {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center; /* Center text inside container */
+}
+
+.exec-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

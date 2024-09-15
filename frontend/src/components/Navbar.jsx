@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css'; 
-import UCBoulderLogo from '../assets/ucboulder-logo-circle-centered.png'
+import UCBoulderLogo from '/ucboulder-logo-circle-centered.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

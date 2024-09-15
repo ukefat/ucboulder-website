@@ -1,0 +1,273 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1445,
+      "max": [
+        61.81503677368164,
+        88.35592651367188,
+        90.89501953125
+      ],
+      "min": [
+        -65.9863052368164,
+        -73.44290161132813,
+        -92.66838073730469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17340,
+      "componentType": 5126,
+      "count": 1445,
+      "max": [
+        0.9998990893363953,
+        0.997866690158844,
+        0.9995921850204468
+      ],
+      "min": [
+        -0.9990833401679993,
+        -0.999552845954895,
+        -0.9996790289878845
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1445,
+      "max": [
+        0.9992855787277222,
+        0.9941973090171814,
+        0.9996175765991211,
+        1.0
+      ],
+      "min": [
+        -0.966276228427887,
+        -0.9999668598175049,
+        -0.9997304081916809,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1445,
+      "max": [
+        0.9998113512992859,
+        0.9947103261947632
+      ],
+      "min": [
+        0.0002120859717251733,
+        0.0007994078332558274
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11560,
+      "componentType": 5126,
+      "count": 1445,
+      "max": [
+        0.9998113512992859,
+        0.9947103261947632
+      ],
+      "min": [
+        0.0002120859717251733,
+        0.0007994078332558274
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7740,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Shahalam(Rihuwa Midori) (https://sketchfab.com/rihuwamidorikuro)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/s--rock-01-lowpoly-1a2408471c9d42e28e3b2e0dc1c62c84",
+      "title": "S_ Rock_01_Lowpoly"
+    },
+    "generator": "Sketchfab-16.10.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 30960,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23120,
+      "byteOffset": 30960,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 34680,
+      "byteOffset": 54080,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23120,
+      "byteOffset": 88760,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 111880,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/S_Rock_01_baseColor.png"
+    },
+    {
+      "uri": "textures/S_Rock_01_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "S_Rock_01",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "L_S_Rock_01_S_Rock_01_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "0ecd488756d34a9cacf44d51808f6cc4.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "L_S_Rock_01"
+    },
+    {
+      "mesh": 0,
+      "name": "L_S_Rock_01_S_Rock_01_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

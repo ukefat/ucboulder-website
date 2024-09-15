@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Events from './pages/Events';
 import Team from './pages/Team';
 import Join from './pages/Join';
+import Footer from './components/Footer.jsx'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/join" element={<Join />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 };

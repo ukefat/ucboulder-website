@@ -5,7 +5,9 @@ import TeamMemberProfile from '../components/TeamMemberProfile.jsx'
 const Team = () => {
   return (
     <div className="page-container">
-      <h1>Meet the Execs</h1>
+      <div className="page-title">
+        <h1>Meet the Execs</h1>
+      </div>
       <div className="exec-container">
         <TeamMemberProfile
           name="Hailey Moretto"
@@ -19,6 +21,7 @@ const Team = () => {
         <TeamMemberProfile
           name="Oceanna Liu"
           position="VP Internal"
+          image="./exec-oceanna.png"
         />
         <TeamMemberProfile
           name="Gabriel Lau"

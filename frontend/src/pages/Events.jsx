@@ -1,12 +1,14 @@
 import React from 'react';
-import '../styles/Event.css'
+import '../styles/Events.css'
 import UpcomingEventCard from '../components/UpcomingEventCard.jsx'
 import PastEventCard from '../components/PastEventCard.jsx'
 
 const Events = () => {
   return (
     <div className="page-container">
-      <h1>Events</h1>
+      <div className="page-title">
+        <h1>Events</h1>
+      </div>
       <h2>Upcoming Events</h2>
         <div className="event-container">
           <UpcomingEventCard

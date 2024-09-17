@@ -20,7 +20,7 @@ const Home = () => {
           <Link className="black-button" to="/join">
             Join Now!
           </Link>
-          <div style={{ width: '100vw', height:'60vh', padding:0, margin: 0 }}>
+          <div style={{ width: '80vw', height:'20vh', padding:0, margin: 0 }}>
             <RockCanvas/>
           </div>
           <h2> Sponsors</h2>

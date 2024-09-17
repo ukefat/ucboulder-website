@@ -17,6 +17,7 @@ const Team = () => {
         <TeamMemberProfile
           name="Doris Xu"
           position="Co-President"
+          image="./exec-doris.jpg"
         />
         <TeamMemberProfile
           name="Oceanna Liu"
@@ -26,6 +27,7 @@ const Team = () => {
         <TeamMemberProfile
           name="Gabriel Lau"
           position="VP Events"
+          image="./exec-gabriel.jpg"
         />
         <TeamMemberProfile
           name="Luke Fatovich"
@@ -35,6 +37,7 @@ const Team = () => {
         <TeamMemberProfile
           name="Jerica Xu"
           position="Treasurer"
+          image="./exec-jerica.jpg"
         />
         <TeamMemberProfile
           name="Kyle Thompson"
@@ -44,6 +47,7 @@ const Team = () => {
         <TeamMemberProfile
           name="Martin Bardhi"
           position="VP Excursions"
+          image="./exec-martin.jpg"
         />
         <TeamMemberProfile
           name="Jordan Lee"
@@ -53,10 +57,12 @@ const Team = () => {
         <TeamMemberProfile
           name="Ash Lam"
           position="VP Marketing"
+          image="./exec-ash.png"
         />
         <TeamMemberProfile
           name="Alfred JainSingh"
           position="VP Media"
+          image="./exec-alfred.jpg"
         />
         <TeamMemberProfile
           name="Kate Hawkins"
